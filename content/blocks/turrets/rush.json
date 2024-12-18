@@ -1,6 +1,6 @@
 {
 type: itemTurret
-name: Rush
+name: Brute
 description: Fires large bullets at ground targets.
 health: 920
 size: 2
