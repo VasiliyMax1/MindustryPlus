@@ -15,6 +15,7 @@ lowAltitude: true
 riseSpeed: 0.02
 itemCapacity: 0
 singleTarget: true
+mechStepParticles: true
 DrownTimeMultiplier: 4
 rotateSpeed: 1.6
 mechFrontSway: 1
