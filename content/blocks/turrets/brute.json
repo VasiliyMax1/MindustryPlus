@@ -16,25 +16,37 @@ ammoUseEffect: casing3
 ammoTypes: {
   graphite: {
       type: BasicBulletType
-      hitSize: 4.6
-      width: 13
-      height: 19
-      shootEffect: shootBig
-      knockback: 0.5
-      speed: 7
-      damage: 80
-      lifetime: 25
-    }
-  thorium: {
-      type: BasicBulletType
       hitSize: 4.8
       width: 15
       height: 21
+      shootEffect: shootBig
+      knockback: 0.6
+      speed: 7
+      damage: 80
+      lifetime: 25
+      hitEffect: hitBulletColor
+      despawnEffect: hitBulletColor
+      hitColor: 7d89d8
+      frontColor: dae1ee
+      backColor: 7d89d8
+    }
+  thorium: {
+      type: BasicBulletType
+      hitSize: 5
+      width: 16
+      height: 23
       shootEffect: shootBig
       knockback: 1
       speed: 7.5
       damage: 120
       lifetime: 25
+      pierceCap: 3
+      pierceBuilding: true
+      hitEffect: hitBulletColor
+      despawnEffect: hitBulletColor
+      hitColor: f595be
+      frontColor: ffffff
+      backColor: f595be
     }
   }
 category: turret
