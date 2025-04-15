@@ -7,12 +7,13 @@ size: 2
 range: 145
 reload: 75
 recoil: 1.8
-shake: 2.5
+shake: 1.5
 shootY: 9
 targetAir: false
 shootSound: bang
-innacuracy: 8.5
 ammoUseEffect: casing3
+ammoEjectBack: 3
+ammoPerShot: 2
 ammoTypes: {
   graphite: {
       type: BasicBulletType
@@ -29,6 +30,28 @@ ammoTypes: {
       hitColor: 7d89d8
       frontColor: dae1ee
       backColor: 7d89d8
+    }
+  silicon: {
+      type: BasicBulletType
+      hitSize: 4.8
+      width: 14
+      height: 19
+      shootEffect: shootBig
+      knockback: 0.5
+      speed: 7
+      damage: 60
+      lifetime: 25
+      hitEffect: hitBulletColor
+      despawnEffect: hitBulletColor
+      hitColor: 707594
+      frontColor: 999ba0
+      backColor: 707594
+      trailColor: 707594
+      reloadMultiplier: 1.2
+      ammoMultiplier: 3
+      homingPower: 0.2
+      trailLength: 9.1
+      trailWidth: 2.7
     }
   thorium: {
       type: BasicBulletType
