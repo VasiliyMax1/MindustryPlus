@@ -47,7 +47,7 @@ ammoTypes: {
       frontColor: 999ba0
       backColor: 707594
       trailColor: 707594
-      reloadMultiplier: 1.2
+      reloadMultiplier: 1.4
       ammoMultiplier: 3
       homingPower: 0.2
       trailLength: 9.1
@@ -70,6 +70,28 @@ ammoTypes: {
       hitColor: f595be
       frontColor: ffffff
       backColor: f595be
+    }
+  pyratite: {
+      type: BasicBulletType
+      hitSize: 5
+      width: 16
+      height: 23
+      shootEffect: shootBig
+      knockback: 0.9
+      speed: 7
+      damage: 70
+      lifetime: 25
+      pierceCap: 2
+      pierceBuilding: true
+      hitEffect: hitBulletSmall
+      despawnEffect: fireHit
+      hitColor: f68021
+      frontColor: f8ad42
+      backColor: f68021
+      splashDamage: 20
+      splashDamageRadius: 25
+      makeFire: true
+      status: burning
     }
   }
 category: turret
