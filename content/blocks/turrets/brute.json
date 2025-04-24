@@ -100,7 +100,14 @@ requirements: [
   silicon/45
   titanium/80
   ]
-research: salvo
+research: {
+  parent: thermal-generator
+  objectives: [
+    {
+      type: SectorComplete
+      preset: stainedMountains
+    }
+  ]
 consumes: {
   coolant: {
     amount: 0.2
