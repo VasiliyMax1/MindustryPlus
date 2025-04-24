@@ -108,6 +108,7 @@ research: {
       preset: stainedMountains
     }
   ]
+}
 consumes: {
   coolant: {
     amount: 0.2
