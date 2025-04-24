@@ -101,7 +101,7 @@ requirements: [
   titanium/80
   ]
 research: {
-  parent: thermal-generator
+  parent: salvo
   objectives: [
     {
       type: SectorComplete
