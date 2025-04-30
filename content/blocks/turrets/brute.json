@@ -1,7 +1,7 @@
 {
 type: itemTurret
 name: Brute
-description: Fires large bullets at ground targets.
+description: Fires large bullets at nearby enemies.
 health: 920
 size: 2
 range: 145
@@ -9,7 +9,6 @@ reload: 75
 recoil: 1.8
 shake: 1.5
 shootY: 9
-targetAir: false
 shootSound: bang
 ammoUseEffect: casing3
 ammoEjectBack: 3
